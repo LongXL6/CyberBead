@@ -37,7 +37,7 @@
 <div id="zh" class="lang-content active">
 
 <h1>隐私政策</h1>
-<p class="subtitle">赛博拼豆 CyberBeadArt &nbsp;|&nbsp; 最后更新：2026年9月8日 &nbsp;|&nbsp; 生效日期：2026年9月8日</p>
+<p class="subtitle">赛博拼豆 CyberBeadArt &nbsp;|&nbsp; 最后更新：2026年9月9日 &nbsp;|&nbsp; 生效日期：2026年9月9日</p>
 
 <div class="highlight">
 我们深知个人信息对您的重要性，并会尽全力保护您的隐私安全。请您在使用我们的产品或服务前，仔细阅读并了解本隐私政策。
@@ -68,17 +68,20 @@
 <p><strong>2.3 我们不收集的信息</strong></p>
 <ul>
 <li>我们<strong>不</strong>收集设备标识符（IDFA/IDFV）</li>
-<li>我们<strong>不</strong>收集位置信息</li>
+<li>我们<strong>不</strong>获取设备的精确定位</li>
 <li>我们<strong>不</strong>收集通讯录、短信、通话记录</li>
-<li>我们<strong>不</strong>使用任何第三方分析或广告 SDK；自建统计见第 2.4 节</li>
+<li>我们<strong>不</strong>使用第三方广告跟踪 SDK；自建统计见第 2.4 节，网站 Cloudflare Web Analytics 见第 2.5 节</li>
 <li>我们<strong>不</strong>跟踪您在其他 App 中的活动</li>
 </ul>
 
-<p><strong>2.4 使用情况统计</strong></p>
+<p><strong>2.4 自建使用情况统计</strong></p>
 <p>我们使用自建统计功能了解创作和社区功能的使用情况，例如创作开始、编辑完成、浏览作品、评分、下载、登录及操作失败，以发现功能中断和改进使用体验。统计可包含事件名称与时间、功能选项、数量或时长区间、应用版本、系统版本和平台；不包含作品正文、图片内容、邮箱或手机号。</p>
-<p>登录用户的事件可与本服务的用户 ID 关联。服务端仅在账户记录确认您已接受包含统计说明的 1.1 或更新版本条款后接收这些事件。iOS 还遵循本机“使用情况统计”开关；Web 默认关闭，需您在接受条款后为当前账号和浏览器主动开启。</p>
-<p>未登录会话在统计开启时仅使用内存中生成的会话标识，不附带用户 ID；该标识在 App 进程或网页会话结束后失效，不写入设备存储，不用于跨 App 或跨启动识别设备。</p>
-<p>您可在 iOS“我的 → 使用情况统计”或 Web 个人页关闭统计。关闭会停止此客户端后续上报并清空尚未发送的事件，不影响核心功能；不同设备或浏览器的开关分别管理。关闭不自动删除已收到的事件，删除途径见第七节。</p>
+<p>登录用户的事件可与本服务的用户 ID 关联。服务端仅在账户记录确认您已接受包含统计说明的 1.1 或更新版本条款后接收这些事件。iOS 还遵循本机“使用情况统计”开关，该开关默认开启；Web 自建统计默认关闭，需您在接受条款后为当前账号和浏览器主动开启，不会补发开启前产生的事件。</p>
+<p>在 iOS，未登录会话在本机统计开启时仅使用内存中生成的会话标识，不附带用户 ID；该标识在 App 进程结束后失效，不写入设备存储，不用于跨 App 或跨启动识别设备。</p>
+<p>您可在 iOS“我的 → 使用情况统计”或 Web 个人页关闭自建统计。关闭会停止此客户端后续自建事件上报并清空尚未发送的事件，不影响核心功能；不同设备或浏览器的开关分别管理。关闭不自动删除已收到的事件，删除途径见第七节。</p>
+
+<p><strong>2.5 网站 Cloudflare Web Analytics</strong></p>
+<p>网站使用 Cloudflare Web Analytics，由 Cloudflare 自动向网页注入统计脚本，用于网站访问和浏览器性能统计。当前配置为启用并排除欧盟访客。此功能独立于第 2.4 节的自建统计开关；关闭自建统计不会关闭网站的 Cloudflare Web Analytics。</p>
 
 <h2>三、我们如何使用信息</h2>
 <ul>
@@ -107,6 +110,7 @@
 <ul>
 <li><strong>Apple 登录服务：</strong>受 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a> 约束</li>
 <li><strong>腾讯云 CloudBase：</strong>用于社区数据存储，受 <a href="https://cloud.tencent.com/document/product/301/11470" target="_blank">腾讯云隐私政策</a> 约束</li>
+<li><strong>Cloudflare：</strong>用于网站交付、安全防护和第 2.5 节所述的 Web Analytics。</li>
 </ul>
 
 <h2>七、您的权利</h2>
@@ -116,7 +120,7 @@
 <li>修改您的昵称和个人资料</li>
 <li>删除您上传的社区作品</li>
 <li>在 iOS App“我的 → 注销账号”发起注销：阅读提示并重新验证身份后，提交注销。服务端删除账户资料及与账户关联的统计事件；已发布作品、评论与反馈中的账号身份会匿名化。</li>
-<li>关闭使用情况统计；如需了解或删除已收到的统计数据，也可通过下方邮箱联系我们。匿名会话没有账号标识，我们无法仅凭账号定位独立的匿名事件。</li>
+<li>关闭自建使用情况统计；如需了解或删除已收到的自建统计数据，也可通过下方邮箱联系我们。匿名会话没有账号标识，我们无法仅凭账号定位独立的匿名事件。</li>
 <li>撤回对照片/相机权限的授权（通过系统设置）</li>
 </ul>
 
@@ -136,7 +140,7 @@
 <div id="en" class="lang-content">
 
 <h1>Privacy Policy</h1>
-<p class="subtitle">CyberBeadArt &nbsp;|&nbsp; Last Updated: September 8, 2026 &nbsp;|&nbsp; Effective: September 8, 2026</p>
+<p class="subtitle">CyberBeadArt &nbsp;|&nbsp; Last Updated: September 9, 2026 &nbsp;|&nbsp; Effective: September 9, 2026</p>
 
 <div class="highlight">
 We understand the importance of your personal information and are committed to protecting your privacy. Please read this Privacy Policy carefully before using our product or services.
@@ -167,17 +171,20 @@ We understand the importance of your personal information and are committed to p
 <p><strong>2.3 Information We Do NOT Collect</strong></p>
 <ul>
 <li>We do <strong>not</strong> collect device identifiers (IDFA/IDFV)</li>
-<li>We do <strong>not</strong> collect location data</li>
+<li>We do <strong>not</strong> access precise device location</li>
 <li>We do <strong>not</strong> collect contacts, messages, or call logs</li>
-<li>We do <strong>not</strong> use any third-party analytics or advertising SDKs; self-hosted analytics is described in Section 2.4</li>
+<li>We do <strong>not</strong> use third-party advertising or ad-tracking SDKs; self-hosted analytics is described in Section 2.4 and the website's Cloudflare Web Analytics in Section 2.5</li>
 <li>We do <strong>not</strong> track your activity across other apps</li>
 </ul>
 
-<p><strong>2.4 Usage Analytics</strong></p>
+<p><strong>2.4 Self-Hosted Usage Analytics</strong></p>
 <p>We use self-hosted analytics to understand creation and community workflows, such as starting a project, completing edits, viewing artwork, rating, downloading, signing in and encountering an operation failure. Events help identify interrupted workflows and improve the experience. They may include an event name and time, feature choices, count or duration ranges, app version, OS version and platform. They do not contain artwork text, image content, email addresses or phone numbers.</p>
-<p>Signed-in events may be associated with your user ID for this service. The server accepts them only after the account record confirms acceptance of terms version 1.1 or later, which includes the analytics explanation. iOS also follows its local Usage Analytics switch. Web analytics is off by default and requires you to enable it for the current account and browser after accepting the terms.</p>
-<p>When analytics is enabled while signed out, events use only a session identifier generated in memory, without a user ID. It expires when the app process or page session ends, is not written to device storage, and is not used to identify a device across apps or launches.</p>
-<p>You can turn analytics off under Profile → Usage Analytics in iOS or on the Web profile page. This stops future reporting from that client and clears unsent events without affecting core features. Switches are managed separately on each device or browser. Turning analytics off does not automatically delete events already received; deletion options are described in Section 7.</p>
+<p>Signed-in events may be associated with your user ID for this service. The server accepts them only after the account record confirms acceptance of terms version 1.1 or later, which includes the analytics explanation. iOS also follows its local Usage Analytics switch, which is on by default. Self-hosted Web analytics is off by default and requires you to enable it for the current account and browser after accepting the terms. Events generated before enabling it are not replayed.</p>
+<p>On iOS, when the local analytics setting is enabled while signed out, events use only a session identifier generated in memory, without a user ID. It expires when the app process ends, is not written to device storage, and is not used to identify a device across apps or launches.</p>
+<p>You can turn self-hosted analytics off under Profile → Usage Analytics in iOS or on the Web profile page. This stops future self-hosted event reporting from that client and clears unsent events without affecting core features. Switches are managed separately on each device or browser. Turning analytics off does not automatically delete events already received; deletion options are described in Section 7.</p>
+
+<p><strong>2.5 Cloudflare Web Analytics on the Website</strong></p>
+<p>The website uses Cloudflare Web Analytics. Cloudflare automatically injects its analytics script into web pages to measure website visits and browser performance. The current configuration enables this service while excluding visitors from the EU. It operates independently of the self-hosted analytics controls in Section 2.4. Turning off self-hosted analytics does not turn off Cloudflare Web Analytics on the website.</p>
 
 <h2>3. How We Use Your Information</h2>
 <ul>
@@ -206,6 +213,7 @@ We understand the importance of your personal information and are committed to p
 <ul>
 <li><strong>Apple Sign-In:</strong> Subject to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a></li>
 <li><strong>Tencent CloudBase:</strong> Used for community data storage, subject to <a href="https://cloud.tencent.com/document/product/301/11470" target="_blank">Tencent Cloud Privacy Policy</a></li>
+<li><strong>Cloudflare:</strong> Provides website delivery, security protection and the Web Analytics service described in Section 2.5.</li>
 </ul>
 
 <h2>7. Your Rights</h2>
@@ -215,7 +223,7 @@ We understand the importance of your personal information and are committed to p
 <li>Modify your nickname and profile</li>
 <li>Delete your community uploads</li>
 <li>Delete your account in the iOS app under Profile → Delete Account: review the warning, verify your identity again and submit deletion. The server deletes account details and associated analytics events; the account identity in published artwork, comments and feedback is anonymized.</li>
-<li>Turn usage analytics off. You may also contact us at the address below about analytics data already received or its deletion. Independent anonymous events have no account identifier and cannot be located solely by an account.</li>
+<li>Turn self-hosted usage analytics off. You may also contact us at the address below about self-hosted analytics data already received or its deletion. Independent anonymous events have no account identifier and cannot be located solely by an account.</li>
 <li>Revoke photo/camera permissions (via system Settings)</li>
 </ul>
 
